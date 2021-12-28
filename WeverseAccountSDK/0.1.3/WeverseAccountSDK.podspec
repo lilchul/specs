@@ -36,11 +36,13 @@ TODO: Add long description of the pod here.
   s.dependency 'GoogleSignIn'
   s.dependency 'FirebaseAuth', '~> 8.0'
   s.dependency 'FirebaseCore'
-  
+
   s.subspec "Core" do |sp|
     sp.source_files     = ["WeverseAccountSDK/**/*.swift", "WeverseAccountSDK/WeverseAccountSDK.h"]
     # sp.resource_bundles = { 'WeverseAccountSDK' => ["WeverseAccountSDK/**/*.{lproj,storyboard,xib,xcassets}"] }
-        sp.resource_bundles = { 'WeverseAccountSDK' => ["WeverseAccountSDK/**/*.{storyboard,xib,xcassets}"] }
+        # sp.resource_bundles = { 'WeverseAccountSDK' => ["WeverseAccountSDK/**/*.{storyboard,xib,xcassets}"] }
+    # sp.resource = { 'WeverseAccountSDK' => ["WeverseAccountSDK/**/*.{storyboard,xib,xcassets,lproj}"] }
+        sp.resource = 'WeverseAccountSDK/**/*.{storyboard,xib,xcassets}'
 
   end
 
