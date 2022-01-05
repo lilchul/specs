@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
                        WeverseAccount SDK provides a modern way of implementing WeverseAccount
                        DESC
 
-  s.homepage                    = 'https://github.com/benxcorp/iOS_weverse_account'
+  s.homepage                    = 'https://github.com/lilchul/iOS_weverse_account'
   s.license                     = "Apache License, Version 2.0"
   s.author                      = { 'iron' => 'iron@weversecompany.com' }
-  s.source                      = { :git => 'https://github.com/benxcorp/iOS_weverse_account.git', :tag => "#{s.version}" }
+  s.source                      = { :git => 'https://github.com/lilchul/iOS_weverse_account.git', :tag => "#{s.version}" }
   s.default_subspecs            = "Core"
   s.ios.deployment_target       = '13.0'
   s.swift_version               = "5.0"
